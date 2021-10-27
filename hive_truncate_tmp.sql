@@ -1,0 +1,9 @@
+truncate table tmp.dim_user_tmp;
+truncate table tmp.dim_order_tmp;
+truncate table tmp.dim_product_tmp;
+truncate table tmp.dim_tags_tmp;
+truncate table tmp.dim_user_action_tmp;
+truncate table tmp.fact_goods_comments_tmp;
+truncate table tmp.fact_order_details_tmp;
+truncate table tmp.fact_user_actions_tmp;
+truncate table tmp.dws_user_action_tags_map_all_tmp;

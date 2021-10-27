@@ -1,0 +1,9 @@
+LOAD DATA INPATH '/dataSets/dim_user.txt' OVERWRITE INTO TABLE `tmp.dim_user_tmp`;
+LOAD DATA INPATH '/dataSets/dim_order.txt' OVERWRITE INTO TABLE `tmp.dim_order_tmp`; 
+LOAD DATA INPATH '/dataSets/dim_product.txt' OVERWRITE INTO TABLE `tmp.dim_product_tmp`; 
+LOAD DATA INPATH '/dataSets/dim_tags.txt' OVERWRITE INTO TABLE `tmp.dim_tags_tmp`; 
+LOAD DATA INPATH '/dataSets/dim_user_action.txt' OVERWRITE INTO TABLE `tmp.dim_user_action_tmp`; 
+LOAD DATA INPATH '/dataSets/fact_goods_comments.txt' OVERWRITE INTO TABLE `tmp.fact_goods_comments_tmp`; 
+LOAD DATA INPATH '/dataSets/fact_order_details.txt' OVERWRITE INTO TABLE `tmp.fact_order_details_tmp`; 
+LOAD DATA INPATH '/dataSets/fact_user_actions.txt' OVERWRITE INTO TABLE `tmp.fact_user_actions_tmp`; 
+LOAD DATA INPATH '/dataSets/dws_user_action_tags_map_all.txt' OVERWRITE INTO TABLE `tmp.dws_user_action_tags_map_all_tmp`; 

@@ -1,0 +1,7 @@
+/data/
+/dataSets/
+/dist/
+ch_create_table.sql
+create_hbase_table.txt
+es_create_index.sh
+*.jar
